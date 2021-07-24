@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+.Selection {
+  margin-top: 25px;
+}
 .Selection p {
   font-family: Gilroy;
   font-style: normal;
@@ -142,50 +153,47 @@
   .Selection h1 {
     font-size: 35px;
   }
-
-  .imageblock {
+  .Selection .imageblock {
     margin: 0 25px;
     display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -ms-grid-columns: 250px 15px 250px 15px 250px;
-    grid-template-columns: repeat(3, 250px);
-    -ms-grid-rows: 180px 15px 180px;
-    grid-template-rows: repeat(2, 180px);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    -ms-grid-columns: 340px 45px 340px 45px 340px;
+    grid-template-columns: repeat(3, 340px);
+    -ms-grid-rows: 280px 45px 280px;
+    grid-template-rows: repeat(2, 280px);
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
   }
-
-  .imageblock > *:nth-child(1) {
+  .Selection .imageblock > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
   }
-
-  .imageblock > *:nth-child(2) {
+  .Selection .imageblock > *:nth-child(2) {
     -ms-grid-row: 1;
     -ms-grid-column: 3;
   }
-
-  .imageblock > *:nth-child(3) {
+  .Selection .imageblock > *:nth-child(3) {
     -ms-grid-row: 1;
     -ms-grid-column: 5;
   }
-
-  .imageblock > *:nth-child(4) {
+  .Selection .imageblock > *:nth-child(4) {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
-
-  .imageblock > *:nth-child(5) {
+  .Selection .imageblock > *:nth-child(5) {
     -ms-grid-row: 3;
     -ms-grid-column: 3;
   }
-
-  .imageblock > *:nth-child(6) {
+  .Selection .imageblock > *:nth-child(6) {
     -ms-grid-row: 3;
     -ms-grid-column: 5;
+  }
+  .Selection .imageblock img {
+    height: 100%;
+    width: 100%;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -302,6 +310,8 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: 0 auto;
+    width: 100px;
+    height: 45px;
     margin: 20px 5px;
     font-family: Gilroy;
     font-style: normal;
