@@ -1,10 +1,56 @@
-let parag = document.querySelector('p');
+let div1 = document.querySelector('.imageblock');
 
 
-let texty = document.querySelector('h1');
+
+function changeImg() {
+
+    div1.setAttribute('id', 'imageblock-1')
+
+    if (div1.hasAttribute('id')) {
+        div1.removeAttribute("class", "imageblock");
+      }
+}
 
 
-let button = document.querySelector('button');
+
+function changeImg1() {
+
+    div1.setAttribute('id', 'imageblock-2')
+
+    if (div1.hasAttribute('id')) {
+        div1.removeAttribute("class", "imageblock");
+      }
+}
+
+function changeImg2() {
+
+    div1.setAttribute('id', 'imageblock-3')
+
+    if (div1.hasAttribute('id')) {
+        div1.removeAttribute("class", "imageblock");
+      }
+}
+
+function changeImg3() {
+
+    div1.setAttribute('id', 'imageblock-4')
+
+    if (div1.hasAttribute('id')) {
+        div1.removeAttribute("class", "imageblock");
+      }
+}
+
+function changeImg4() {
+
+    div1.setAttribute('id', 'imageblock-5')
+
+    if (div1.hasAttribute('id')) {
+        div1.removeAttribute("class", "imageblock");
+      }
+}
+
+
+
 
 
 
@@ -21,13 +67,3 @@ let button = document.querySelector('button');
 // }
 
 // Sstil("", "", "200", "40px", "140%", "center", "#333333");
-
-
-button.setAttribute('class', 'only-1')
-
-
-function clickImg() {
-    nav.classList.add("imageblock-1");
-}
-clickImg();
-
